@@ -85,6 +85,8 @@ function create_config( )
 		"banhammer",
 		"groupmanager",
 		"msg-checks",
+		"AddGP",
+		"rmsgen",
 		"plugins",
 		"tools",
 		"fun",
