@@ -82,12 +82,13 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
 	config = {
     enabled_plugins = {
-		"banhammer",
-		"groupmanager",
+		"groupmanager"
+		"JoinChannel",
 		"msg-checks",
-		"AddGP",
-		"rmsgen",
+		"banhammer",
 		"plugins",
+		"rmsgen",
+		"AddGP",
 		"tools",
 		"fun",
 
