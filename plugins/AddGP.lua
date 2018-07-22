@@ -1,5 +1,3 @@
--------------------------------------
-
 local function eagelTeaM(msg)
 	if not is_mod(msg) then
 		local hash = "gp_lang:"..msg.to.id
@@ -90,7 +88,7 @@ local function eagelTeaM(msg)
 	end
 end
 
-local function samtaylor(msg, parts)
+local function run(msg, parts)
 	if is_mod(msg) then
 		local hash = "gp_lang:"..msg.to.id
 		local lang = redis:get(hash)
@@ -201,6 +199,6 @@ return {
 	'^(تنظیم اداجباری) (%d+)$',
 	'^(تعداد اداجباری)$',
   },
-  run = samtaylor,
+  run = run,
   pre_process = PaydarTeam
 }
